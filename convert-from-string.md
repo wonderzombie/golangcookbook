@@ -48,5 +48,10 @@ func main() {
 
 `Sscanf()` grants you more control over how the values are intepreted via a format string.
 
+A third way involves `text/scanner`. 
+
+
+
 [fmt]: http://weekly.golang.org/pkg/fmt/
 [strconv]: http://weekly.golang.org/pkg/strconv/
+[scanner]: http://weekly.golang.org/pkg/text/scanner/

@@ -12,7 +12,7 @@ We'll use a file that looks like this as the data source:
 4 13 Reggie
 ~~~~
 
-Here's a snippet which uses `strings`
+Here's a snippet which uses `strings`:
 
 ~~~~
 package main
@@ -38,8 +38,8 @@ func main() {
   )
 
   var err error
-  for line, err := buf.ReadBytes('\n') {
-    s := strings.Split(" ")
+  for line, err := buf.ReadString('\n') {
+    s := strings.Fields(line)
     if len(m) != 0 {
       id, label := m[0], m[1]
       map[id] = label
