@@ -2,7 +2,7 @@
 
 There are many ways to do this, as there are a variety of use cases. 
 
-One straightforward way is to use a method `io/ioutil` called `ReadFile()`.
+One straightforward way is to use a method `io/ioutil` called `ReadFile()`. It returns a `string` with the contents of the file:
 
 ~~~~
 ff := ioutil.ReadFile("myfile.txt")
