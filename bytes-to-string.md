@@ -1,6 +1,6 @@
-### Parsing structured data in a text file
+### Parsing structured data in a text file -- WIP
 
-You have many potential choices. I'll discuss two. 
+You have many potential choices. I'll discuss two.
 
 We'll use a file that looks like this as the data source:
 
