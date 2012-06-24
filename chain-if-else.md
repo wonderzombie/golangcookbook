@@ -1,15 +1,14 @@
 ### Chain if/else
 
-
 You can of course do this:
 
 ~~~~
-if (cond) {
-  
-} else if (cond2) {
-  
-} else if (cond3) {
-  
+if (x == y) {
+
+} else if (z == x) {
+
+} else if (z == y) {
+
 }
 ~~~~
 
@@ -17,11 +16,11 @@ However, you can also use a case statement without a parameter:
 
 ~~~~
 switch {
-  case cond:
-  // foo
-  case cond2:
-  // bar
-  case cond3:
-  // baz
+  case x == y:
+  // ...
+  case z == x:
+  // ...
+  case z == y:
+  // ...
 }
 ~~~~

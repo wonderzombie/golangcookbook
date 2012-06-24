@@ -23,7 +23,7 @@ That last part is the magical part. You then define a `Less()` method on `Record
 
 There are some pre-configured types available: `int`, `float64`, and `string`.
 
-As a bonus, there is support for a higher-order `Search` function, a la Ruby.
+As a bonus, there is support for a higher-order `Search` function.
 
 
 [sortif]: http://weekly.golang.org/pkg/sort/#Interface

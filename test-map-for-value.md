@@ -1,13 +1,12 @@
 ### Test for the presence of a key/value in a map
 
-
 When performing a lookup in a map, you'll never get `nil` back. Instead, you'll always get the zero-initialized instance of whatever the map's value type is. For some use cases such as a `string` value it might not matter. For an arbitrary struct, though, it may be tedious or impractical to check every public field for its zero value.
 
 You can find out for sure whether the entry was there by assigning to a second variable as part of the lookup. The variable will be populated with a `bool` indicating whether or not there was an entry for that key.
 
 ~~~~
 type Translation struct {
-  Spanish string  
+  Spanish string
   Mandarin string
 }
 
@@ -26,7 +25,7 @@ In this example, `ok` will be false. If you're only testing for the presence of 
 _, ok := colors["black"]
 ~~~~
 
-The [docs](http://weekly.golang.org/doc/effective_go.html#maps) also mention using a as a set.
+The [docs](http://weekly.golang.org/doc/effective_go.html#maps) also mention using a map as a set.
 
 ~~~~
 package main
@@ -60,8 +59,8 @@ func main() {
       fmt.Println("Ignoring duplicate name:", n)
     }
   }
-  
-  fmt.Println(names)  
+
+  fmt.Println(names)
 }
 ~~~~
 [ego]: http://golang.org/doc/effective_go.html
