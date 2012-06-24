@@ -24,4 +24,3 @@ func main() {
   ss := fmt.Sprintf("%03d", 23) // Outputs 023
 }
 ~~~~
-
